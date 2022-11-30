@@ -1,0 +1,14 @@
+.CommonButton{
+    background-color: #ffcb9a;
+    border: 2px solid sandybrown;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: -webkit-fill-available;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.CommonButton:hover{
+    background-color: rgba(black, 0.7);
+}
