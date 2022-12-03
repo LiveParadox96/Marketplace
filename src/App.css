@@ -1,30 +1,5 @@
-.App{
+.App {
   display: flex;
   flex-direction: column;
   /* backdrop-filter: blur(100em); */
-  background-color: #116466;
-}
-
-.Searsh_item{
-  margin: 20px 0;
-}
-.search_text{
-  color: #d9b08c
-}
-
-.Searsh_item{
-  display: flex;
-  justify-content: center;
-  height: 20px;
-  align-items: center;
-}
-
-
-
-.App-container{
-  display: flex;
-  padding: 20px 40px;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
 }

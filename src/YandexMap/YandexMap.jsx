@@ -1,9 +1,9 @@
-import './YandexMap.css';
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
+import "./YandexMap.css";
 
-const center = [55.753134, 37.640255];
+const center = [55.76, 37.64];
 
 const images = [...Array(26)].map((n, i) => {
   const letter = String.fromCharCode(i + 97);
@@ -15,11 +15,11 @@ const YandexMap = (props) => (
     <Map
       state={{
         center,
-        zoom: 15,
+        zoom: 10,
         controls: []
       }}
-      width="500px"
-      height="500px"
+      width="1000px"
+      height="1000px"
     >
       {images.map((n) => (
         <Placemark
