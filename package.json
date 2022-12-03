@@ -1,6 +1,7 @@
 {
-  "name": "first_start_react_innopolis",
+  "name": "Marketplace",
   "version": "0.1.0",
+  "homepage": "https://LiveParadox96.github.io/Marketplace",
   "private": true,
   "dependencies": {
     "@pbe/react-yandex-maps": "^1.2.2",
@@ -43,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
